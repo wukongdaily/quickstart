@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/linkease/quick-start/istore-backend/modules/raid/inventory"
-	"github.com/linkease/quick-start/istore-backend/modules/raid/writecommands"
+	"github.com/istoreos/quickstart/backend/modules/raid/inventory"
+	"github.com/istoreos/quickstart/backend/modules/raid/writecommands"
 )
 
 type Partition struct {

@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/internal/httpapi"
+	"github.com/istoreos/quickstart/backend/internal/httpapi"
 )
 
 type fakeLCDBackend struct {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	shareservice "github.com/linkease/quick-start/istore-backend/modules/share/service"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	shareservice "github.com/istoreos/quickstart/backend/modules/share/service"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type shareServiceFacade interface {

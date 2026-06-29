@@ -1,6 +1,6 @@
 package publicaddress
 
-import "github.com/linkease/quick-start/istore-backend/models"
+import "github.com/istoreos/quickstart/backend/models"
 
 type Reader interface {
 	Read() (Snapshot, error)

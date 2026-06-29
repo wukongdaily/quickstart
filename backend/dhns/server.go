@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/linkease/quick-start/istore-backend/message"
+	"github.com/istoreos/quickstart/backend/message"
 	uuid "github.com/satori/go.uuid"
 )
 

@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/modules/raid/mdadmconfig"
-	"github.com/linkease/quick-start/istore-backend/modules/raid/writecommands"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/modules/raid/mdadmconfig"
+	"github.com/istoreos/quickstart/backend/modules/raid/writecommands"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type raidMdadmConfigStore struct{}

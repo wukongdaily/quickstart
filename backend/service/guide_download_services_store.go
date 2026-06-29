@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	downloadservices "github.com/linkease/quick-start/istore-backend/modules/guidestorage/downloadservices"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	downloadservices "github.com/istoreos/quickstart/backend/modules/guidestorage/downloadservices"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type GuideDownloadServicesReader interface {

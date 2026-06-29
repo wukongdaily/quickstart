@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"github.com/jedib0t/go-pretty/v6/list"
-	"github.com/linkease/quick-start/istore-backend/service"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/service"
+	"github.com/istoreos/quickstart/backend/utils"
 	"github.com/manifoldco/promptui"
 )
 

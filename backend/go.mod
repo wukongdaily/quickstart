@@ -1,4 +1,4 @@
-module github.com/linkease/quick-start/istore-backend
+module github.com/istoreos/quickstart/backend
 
 go 1.23.0
 

@@ -7,12 +7,12 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	smartcommands "github.com/linkease/quick-start/istore-backend/modules/smart/commands"
-	smartconfig "github.com/linkease/quick-start/istore-backend/modules/smart/config"
-	smartinfo "github.com/linkease/quick-start/istore-backend/modules/smart/info"
-	smartinventory "github.com/linkease/quick-start/istore-backend/modules/smart/inventory"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	smartcommands "github.com/istoreos/quickstart/backend/modules/smart/commands"
+	smartconfig "github.com/istoreos/quickstart/backend/modules/smart/config"
+	smartinfo "github.com/istoreos/quickstart/backend/modules/smart/info"
+	smartinventory "github.com/istoreos/quickstart/backend/modules/smart/inventory"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 func SmartGetList(ctx context.Context) (*models.SmartListResponse, error) {

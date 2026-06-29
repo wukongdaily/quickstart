@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 type LanStaticDeviceDhcpTagReader interface {

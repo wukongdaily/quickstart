@@ -2,8 +2,8 @@ package server
 
 import (
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/modules/system"
-	"github.com/linkease/quick-start/istore-backend/service"
+	"github.com/istoreos/quickstart/backend/modules/system"
+	"github.com/istoreos/quickstart/backend/service"
 )
 
 var _ system.Backend = (*service.ServiceBackend)(nil)

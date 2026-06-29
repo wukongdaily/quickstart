@@ -1,6 +1,6 @@
 package service
 
-import "github.com/linkease/quick-start/istore-backend/modules/network/publicaddress"
+import "github.com/istoreos/quickstart/backend/modules/network/publicaddress"
 
 var networkPublicAddressOutboundInterfaces = outboundInterfaces
 var networkPublicAddressIsPublicIPv4 = IsPublicIPV4

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func (backend *ServiceBackend) SetQuickstartConfig(ctx context.Context, req models.QuickstartConfigRequest) (*models.SDKNormalResponse, error) {

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	shareuser "github.com/linkease/quick-start/istore-backend/modules/share/user"
+	"github.com/istoreos/quickstart/backend/models"
+	shareuser "github.com/istoreos/quickstart/backend/modules/share/user"
 )
 
 func shareTestRequest(body string) *http.Request {

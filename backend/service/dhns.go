@@ -15,16 +15,16 @@ import (
 
 	"github.com/digineo/go-uci"
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/dhns"
-	"github.com/linkease/quick-start/istore-backend/models"
-	dhnsconflict "github.com/linkease/quick-start/istore-backend/modules/dhns/conflict"
-	dhnsevents "github.com/linkease/quick-start/istore-backend/modules/dhns/events"
-	dhnshttpresult "github.com/linkease/quick-start/istore-backend/modules/dhns/httpresult"
-	dhnsnetns "github.com/linkease/quick-start/istore-backend/modules/dhns/netns"
-	dhnsnetsections "github.com/linkease/quick-start/istore-backend/modules/dhns/netsections"
-	dhnsrecovery "github.com/linkease/quick-start/istore-backend/modules/dhns/recovery"
-	dhnsudhcp "github.com/linkease/quick-start/istore-backend/modules/dhns/udhcp"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/dhns"
+	"github.com/istoreos/quickstart/backend/models"
+	dhnsconflict "github.com/istoreos/quickstart/backend/modules/dhns/conflict"
+	dhnsevents "github.com/istoreos/quickstart/backend/modules/dhns/events"
+	dhnshttpresult "github.com/istoreos/quickstart/backend/modules/dhns/httpresult"
+	dhnsnetns "github.com/istoreos/quickstart/backend/modules/dhns/netns"
+	dhnsnetsections "github.com/istoreos/quickstart/backend/modules/dhns/netsections"
+	dhnsrecovery "github.com/istoreos/quickstart/backend/modules/dhns/recovery"
+	dhnsudhcp "github.com/istoreos/quickstart/backend/modules/dhns/udhcp"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type hijackerConn struct {

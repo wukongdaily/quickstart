@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	networkstatus "github.com/linkease/quick-start/istore-backend/modules/network/status"
+	networkstatus "github.com/istoreos/quickstart/backend/modules/network/status"
 )
 
 var networkStatusStoreTestMu sync.Mutex

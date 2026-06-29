@@ -4,9 +4,9 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/nas/diskinventory"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/nas/diskinventory"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type InventoryReader interface {

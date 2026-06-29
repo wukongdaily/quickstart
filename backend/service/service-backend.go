@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/linkease/quick-start/istore-backend/dhns"
-	dhnsruntime "github.com/linkease/quick-start/istore-backend/modules/dhns/runtime"
-	systemthermal "github.com/linkease/quick-start/istore-backend/modules/system/thermal"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/dhns"
+	dhnsruntime "github.com/istoreos/quickstart/backend/modules/dhns/runtime"
+	systemthermal "github.com/istoreos/quickstart/backend/modules/system/thermal"
+	"github.com/istoreos/quickstart/backend/utils"
 	"golang.org/x/sys/unix"
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/modules/nas/automount"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/modules/nas/automount"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type nasAutoMountFacade interface {

@@ -1,6 +1,6 @@
 package service
 
-import downloadservices "github.com/linkease/quick-start/istore-backend/modules/guidestorage/downloadservices"
+import downloadservices "github.com/istoreos/quickstart/backend/modules/guidestorage/downloadservices"
 
 type GuideDownloadAria2Snapshot = downloadservices.Aria2Snapshot
 type GuideDownloadQbittorrentSnapshot = downloadservices.QbittorrentSnapshot

@@ -1,6 +1,6 @@
 package service
 
-import networkbasics "github.com/linkease/quick-start/istore-backend/modules/guidecore/networkbasics"
+import networkbasics "github.com/istoreos/quickstart/backend/modules/guidecore/networkbasics"
 
 type GuideDefaultOutboundInterfaceSnapshot struct {
 	InterfaceName string

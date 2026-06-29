@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/internal/httpapi"
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/internal/httpapi"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 type Backend interface {

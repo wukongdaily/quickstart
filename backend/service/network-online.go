@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 const (

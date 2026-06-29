@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	guidesetup "github.com/linkease/quick-start/istore-backend/modules/guidecore/setup"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	guidesetup "github.com/istoreos/quickstart/backend/modules/guidecore/setup"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 func (backend *ServiceBackend) GuideNeedSetup(ctx context.Context, r *http.Request) (*models.GuideNeedSetupResponse, error) {

@@ -1,6 +1,6 @@
 package service
 
-import "github.com/linkease/quick-start/istore-backend/modules/nas/serviceconfig"
+import "github.com/istoreos/quickstart/backend/modules/nas/serviceconfig"
 
 type NasSambaCreateInput = serviceconfig.SambaCreateInput
 

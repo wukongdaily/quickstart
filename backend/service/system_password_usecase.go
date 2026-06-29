@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	systempassword "github.com/linkease/quick-start/istore-backend/modules/system/password"
+	"github.com/istoreos/quickstart/backend/models"
+	systempassword "github.com/istoreos/quickstart/backend/modules/system/password"
 )
 
 type systemPasswordFacade interface {

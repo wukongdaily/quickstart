@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func TestBuildNasSambaURL(t *testing.T) {

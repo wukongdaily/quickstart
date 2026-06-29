@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func (backend *ServiceBackend) PostGuidePppoe(ctx context.Context, r *http.Request) (*models.SDKNormalResponse, error) {

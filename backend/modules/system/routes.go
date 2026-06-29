@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/internal/httpapi"
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/internal/httpapi"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 type Backend interface {
@@ -109,7 +109,7 @@ func decodeSystemJSON[T any](r *http.Request) (T, error) {
 	return req, nil
 }
 
-const systemSessionIDContextKey = "github.com/linkease/quick-start/istore-backend/system/session-id"
+const systemSessionIDContextKey = "github.com/istoreos/quickstart/backend/system/session-id"
 
 func systemSessionIDFromRequest(r *http.Request) string {
 	for _, name := range []string{"sysauth", "sysauth_http", "sysauth_https"} {

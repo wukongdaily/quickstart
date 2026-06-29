@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func TestAuthenticatedJSONRequiresForwardedSid(t *testing.T) {

@@ -3,7 +3,7 @@ package interfacewrite
 import (
 	"fmt"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 type Input struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func (backend *ServiceBackend) GetNasDiskStatus(ctx context.Context) (*models.NasDiskStatusResponse, error) {

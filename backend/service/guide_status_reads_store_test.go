@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	simplejson "github.com/bitly/go-simplejson"
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func TestDefaultGuideStatusReadsReaderReadDdnstoConfig(t *testing.T) {

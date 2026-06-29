@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/network/portlist"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/network/portlist"
 )
 
 type NetworkPortStatusReader = portlist.StatusReader

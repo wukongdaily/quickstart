@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func ParseSmartctlInfo(base models.SmartInfo, stdout string) *models.SmartInfo {

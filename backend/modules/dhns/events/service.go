@@ -1,6 +1,6 @@
 package events
 
-import "github.com/linkease/quick-start/istore-backend/models"
+import "github.com/istoreos/quickstart/backend/models"
 
 func ShouldTriggerIfaceEvent(evt models.DHNSChangeRequest) bool {
 	switch evt.Action {

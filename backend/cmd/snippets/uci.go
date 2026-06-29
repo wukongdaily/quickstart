@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/service"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/service"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 func uciMain() {

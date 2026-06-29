@@ -6,9 +6,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	networkdevicelist "github.com/linkease/quick-start/istore-backend/modules/network/devicelist"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	networkdevicelist "github.com/istoreos/quickstart/backend/modules/network/devicelist"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type networkDeviceListFacade interface {

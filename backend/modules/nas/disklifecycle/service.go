@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 var waitRefresh = func(d time.Duration) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	dockertransfer "github.com/linkease/quick-start/istore-backend/modules/guidestorage/dockertransfer"
+	"github.com/istoreos/quickstart/backend/models"
+	dockertransfer "github.com/istoreos/quickstart/backend/modules/guidestorage/dockertransfer"
 )
 
 type guideDockerTransferFacade interface {

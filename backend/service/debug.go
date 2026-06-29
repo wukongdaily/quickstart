@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/linkease/quick-start/istore-backend/lib/logger"
+	"github.com/istoreos/quickstart/backend/lib/logger"
 )
 
 var (

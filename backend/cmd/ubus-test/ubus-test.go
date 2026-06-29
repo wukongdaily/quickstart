@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/linkease/quick-start/istore-backend/ubus"
+	"github.com/istoreos/quickstart/backend/ubus"
 )
 
 func main() {

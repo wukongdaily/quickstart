@@ -1,6 +1,6 @@
 package service
 
-import "github.com/linkease/quick-start/istore-backend/models"
+import "github.com/istoreos/quickstart/backend/models"
 
 type DhcpGatewayInput struct {
 	DhcpEnabled bool

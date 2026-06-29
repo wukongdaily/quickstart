@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	shareprotocol "github.com/linkease/quick-start/istore-backend/modules/share/protocol"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	shareprotocol "github.com/istoreos/quickstart/backend/modules/share/protocol"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type shareProtocolFacade interface {

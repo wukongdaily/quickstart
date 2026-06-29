@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	systemversion "github.com/linkease/quick-start/istore-backend/modules/system/version"
+	"github.com/istoreos/quickstart/backend/models"
+	systemversion "github.com/istoreos/quickstart/backend/modules/system/version"
 )
 
 type systemVersionFacade interface {

@@ -2,8 +2,8 @@ package server
 
 import (
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/modules/raid"
-	"github.com/linkease/quick-start/istore-backend/service"
+	"github.com/istoreos/quickstart/backend/modules/raid"
+	"github.com/istoreos/quickstart/backend/service"
 )
 
 var _ raid.Backend = (*service.ServiceBackend)(nil)
