@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func TestBuildLanSpeedLimitedDeviceInventoryIndexesOnlineDevices(t *testing.T) {

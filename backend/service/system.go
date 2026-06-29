@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func SystemVersion(ctx context.Context) (*models.SystemVersionResponse, error) {
@@ -127,7 +127,7 @@ func SystemGetSessionValue(ctx context.Context, sessionID string) (*models.Syste
 	return &resp, nil
 }
 
-const systemSessionIDContextKey = "github.com/linkease/quick-start/istore-backend/system/session-id"
+const systemSessionIDContextKey = "github.com/istoreos/quickstart/backend/system/session-id"
 
 func systemSessionIDFromContext(ctx context.Context) string {
 	sessionID, _ := ctx.Value(systemSessionIDContextKey).(string)

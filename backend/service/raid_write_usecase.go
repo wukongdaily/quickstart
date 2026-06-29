@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/linkease/quick-start/istore-backend/modules/raid/writeflow"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/modules/raid/writeflow"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type raidWriteFlowStore struct{}

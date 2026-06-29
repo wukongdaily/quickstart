@@ -1,6 +1,6 @@
 package service
 
-import networkstatus "github.com/linkease/quick-start/istore-backend/modules/network/status"
+import networkstatus "github.com/istoreos/quickstart/backend/modules/network/status"
 
 type NetworkStatusSnapshot = networkstatus.Snapshot
 type NetworkStatusDNSConfig = networkstatus.DNSConfig

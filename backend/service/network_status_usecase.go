@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	networkstatus "github.com/linkease/quick-start/istore-backend/modules/network/status"
+	"github.com/istoreos/quickstart/backend/models"
+	networkstatus "github.com/istoreos/quickstart/backend/modules/network/status"
 )
 
 type networkStatusFacade interface {

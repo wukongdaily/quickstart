@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/nas/diskinventory"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/nas/diskinventory"
 )
 
 type fakeInventoryReader struct {

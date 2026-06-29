@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func sandboxTestRequest(body string) *http.Request {

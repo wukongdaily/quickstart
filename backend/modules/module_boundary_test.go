@@ -11,7 +11,7 @@ import (
 )
 
 func TestModulesDoNotImportServiceOrServer(t *testing.T) {
-	const repoImport = "github.com/linkease/quick-start/istore-backend/"
+	const repoImport = "github.com/istoreos/quickstart/backend/"
 	forbidden := map[string]struct{}{
 		repoImport + "server":  {},
 		repoImport + "service": {},

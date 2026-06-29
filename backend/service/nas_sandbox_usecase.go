@@ -6,9 +6,9 @@ import (
 	"os/exec"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	sandboxmodule "github.com/linkease/quick-start/istore-backend/modules/nas/sandbox"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	sandboxmodule "github.com/istoreos/quickstart/backend/modules/nas/sandbox"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type nasSandboxFacade interface {

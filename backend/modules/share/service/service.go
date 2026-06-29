@@ -5,7 +5,7 @@ import (
 	"errors"
 	"regexp"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 type ShareRecord struct {

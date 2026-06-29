@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	disklifecycle "github.com/linkease/quick-start/istore-backend/modules/nas/disklifecycle"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	disklifecycle "github.com/istoreos/quickstart/backend/modules/nas/disklifecycle"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type NasDiskSnapshotReader = disklifecycle.SnapshotReader

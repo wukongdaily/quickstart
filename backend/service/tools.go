@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/modules/raid/inventory"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/modules/raid/inventory"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 func Raid1Tool(DevicePaths []string) error {

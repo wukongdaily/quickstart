@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/raid/writeflow"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/raid/writeflow"
 )
 
 // 参考逻辑

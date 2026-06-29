@@ -10,12 +10,12 @@ import (
 	"sync"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/lib/scope_error"
-	"github.com/linkease/quick-start/istore-backend/models"
-	wirelessguest "github.com/linkease/quick-start/istore-backend/modules/wireless/guestnetwork"
-	wirelessifacecontrol "github.com/linkease/quick-start/istore-backend/modules/wireless/ifacecontrol"
-	wirelesssetup "github.com/linkease/quick-start/istore-backend/modules/wireless/setup"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/lib/scope_error"
+	"github.com/istoreos/quickstart/backend/models"
+	wirelessguest "github.com/istoreos/quickstart/backend/modules/wireless/guestnetwork"
+	wirelessifacecontrol "github.com/istoreos/quickstart/backend/modules/wireless/ifacecontrol"
+	wirelesssetup "github.com/istoreos/quickstart/backend/modules/wireless/setup"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 const (

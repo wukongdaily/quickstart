@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/modules/lancontrol/floatgateway"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/modules/lancontrol/floatgateway"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type LanFloatGatewayWriteStore interface {

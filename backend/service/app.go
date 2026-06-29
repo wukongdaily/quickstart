@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	appcore "github.com/linkease/quick-start/istore-backend/modules/app/core"
-	appmetadata "github.com/linkease/quick-start/istore-backend/modules/app/metadata"
-	quickstartconfig "github.com/linkease/quick-start/istore-backend/modules/quickstart/config"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	appcore "github.com/istoreos/quickstart/backend/modules/app/core"
+	appmetadata "github.com/istoreos/quickstart/backend/modules/app/metadata"
+	quickstartconfig "github.com/istoreos/quickstart/backend/modules/quickstart/config"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 func AppCheck(ctx context.Context, r *http.Request) (*models.AppCheckResponse, error) {

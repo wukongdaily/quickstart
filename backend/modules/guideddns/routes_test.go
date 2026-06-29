@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 type fakeGuideDDNSBackend struct {

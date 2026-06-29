@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	systempower "github.com/linkease/quick-start/istore-backend/modules/system/power"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	systempower "github.com/istoreos/quickstart/backend/modules/system/power"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type systemPowerFacade interface {

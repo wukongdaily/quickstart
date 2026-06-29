@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 type Store interface {

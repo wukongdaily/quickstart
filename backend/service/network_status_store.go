@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/digineo/go-uci"
-	networkstatus "github.com/linkease/quick-start/istore-backend/modules/network/status"
+	networkstatus "github.com/istoreos/quickstart/backend/modules/network/status"
 )
 
 var networkStatusOutboundInterfaces = outboundInterfaces

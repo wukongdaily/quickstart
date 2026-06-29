@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	shareservice "github.com/linkease/quick-start/istore-backend/modules/share/service"
-	shareuser "github.com/linkease/quick-start/istore-backend/modules/share/user"
+	"github.com/istoreos/quickstart/backend/models"
+	shareservice "github.com/istoreos/quickstart/backend/modules/share/service"
+	shareuser "github.com/istoreos/quickstart/backend/modules/share/user"
 )
 
 func ShareUserList(ctx context.Context) (*models.ShareUserListResponse, error) {

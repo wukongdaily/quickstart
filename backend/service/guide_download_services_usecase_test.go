@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 type fakeGuideDownloadServicesReader struct {

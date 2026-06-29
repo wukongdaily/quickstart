@@ -3,7 +3,7 @@ package setup
 import (
 	"errors"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func PrepareQuickSetupRequest(req *models.WirelessQuickSetupRequest) error {

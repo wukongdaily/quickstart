@@ -1,5 +1,5 @@
 package service
 
-import "github.com/linkease/quick-start/istore-backend/api"
+import "github.com/istoreos/quickstart/backend/api"
 
 const VERSION = api.VERSION

@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 func (cli *DhnsClient) serveStaticIP(w http.ResponseWriter, r *http.Request) {

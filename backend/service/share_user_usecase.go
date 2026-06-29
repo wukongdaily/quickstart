@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	shareuser "github.com/linkease/quick-start/istore-backend/modules/share/user"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	shareuser "github.com/istoreos/quickstart/backend/modules/share/user"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type shareUserFacade interface {

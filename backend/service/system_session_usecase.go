@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	systemsession "github.com/linkease/quick-start/istore-backend/modules/system/session"
+	"github.com/istoreos/quickstart/backend/models"
+	systemsession "github.com/istoreos/quickstart/backend/modules/system/session"
 )
 
 type systemSessionFacade interface {

@@ -3,7 +3,7 @@ package disklifecycle
 import (
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func TestBuildDiskSnapshotsSkipsNilRecords(t *testing.T) {

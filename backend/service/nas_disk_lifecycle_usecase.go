@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	disklifecycle "github.com/linkease/quick-start/istore-backend/modules/nas/disklifecycle"
+	"github.com/istoreos/quickstart/backend/models"
+	disklifecycle "github.com/istoreos/quickstart/backend/modules/nas/disklifecycle"
 )
 
 type NasDiskLifecycleService = disklifecycle.Service

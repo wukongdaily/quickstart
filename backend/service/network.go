@@ -16,9 +16,9 @@ import (
 	"strings"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	networkwanstats "github.com/linkease/quick-start/istore-backend/modules/network/wanstats"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	networkwanstats "github.com/istoreos/quickstart/backend/modules/network/wanstats"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type wanStatsSampler struct {

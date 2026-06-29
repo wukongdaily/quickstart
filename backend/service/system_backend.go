@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	systemthermal "github.com/linkease/quick-start/istore-backend/modules/system/thermal"
+	"github.com/istoreos/quickstart/backend/models"
+	systemthermal "github.com/istoreos/quickstart/backend/modules/system/thermal"
 )
 
 func (backend *ServiceBackend) GetSystemVersion(ctx context.Context) (*models.SystemVersionResponse, error) {

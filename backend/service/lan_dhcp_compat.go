@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 // Get DHCP info, only support the one LAN, not support LAN2, LAN3...

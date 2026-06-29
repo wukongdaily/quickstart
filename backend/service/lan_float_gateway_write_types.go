@@ -1,6 +1,6 @@
 package service
 
-import "github.com/linkease/quick-start/istore-backend/modules/lancontrol/floatgateway"
+import "github.com/istoreos/quickstart/backend/modules/lancontrol/floatgateway"
 
 type FloatGatewayWriteInput = floatgateway.Input
 

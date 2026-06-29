@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	downloadservices "github.com/linkease/quick-start/istore-backend/modules/guidestorage/downloadservices"
+	"github.com/istoreos/quickstart/backend/models"
+	downloadservices "github.com/istoreos/quickstart/backend/modules/guidestorage/downloadservices"
 )
 
 type guideAria2InitFacade interface {

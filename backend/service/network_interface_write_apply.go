@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/modules/network/interfacewrite"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/modules/network/interfacewrite"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 var networkInterfaceWriteCommitAndApply = utils.UciCommitAndApply

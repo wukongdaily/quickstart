@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/modules/lancontrol/floatgateway"
+	"github.com/istoreos/quickstart/backend/modules/lancontrol/floatgateway"
 )
 
 func TestBuildConfigForFallbackRoleUsesScalarCheckIP(t *testing.T) {

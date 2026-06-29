@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/network/publicaddress"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/network/publicaddress"
 )
 
 type networkPublicAddressFacade interface {

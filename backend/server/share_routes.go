@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/share"
-	"github.com/linkease/quick-start/istore-backend/service"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/share"
+	"github.com/istoreos/quickstart/backend/service"
 )
 
 type shareBackend struct{}

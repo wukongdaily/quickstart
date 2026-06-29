@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	networkbasics "github.com/linkease/quick-start/istore-backend/modules/guidecore/networkbasics"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	networkbasics "github.com/istoreos/quickstart/backend/modules/guidecore/networkbasics"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type GuideSetDNSConfigInput struct {

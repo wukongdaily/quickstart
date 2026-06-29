@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/models"
-	dhnsevents "github.com/linkease/quick-start/istore-backend/modules/dhns/events"
+	"github.com/istoreos/quickstart/backend/models"
+	dhnsevents "github.com/istoreos/quickstart/backend/modules/dhns/events"
 )
 
 type fakeBackend struct {

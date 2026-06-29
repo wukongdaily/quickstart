@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	lancontrolspeedstats "github.com/linkease/quick-start/istore-backend/modules/lancontrol/speedstats"
+	"github.com/istoreos/quickstart/backend/models"
+	lancontrolspeedstats "github.com/istoreos/quickstart/backend/modules/lancontrol/speedstats"
 )
 
 func (backend *ServiceBackend) GetSpeedsForAllDevice(ctx context.Context, r *http.Request) (*models.DeviceSpeedStatsResponse, error) {

@@ -1,6 +1,6 @@
 package downloadservices
 
-import "github.com/linkease/quick-start/istore-backend/models"
+import "github.com/istoreos/quickstart/backend/models"
 
 type Aria2Snapshot struct {
 	ConfigPath   string

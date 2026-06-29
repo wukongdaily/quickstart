@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/modules/lcd"
-	"github.com/linkease/quick-start/istore-backend/service"
+	"github.com/istoreos/quickstart/backend/modules/lcd"
+	"github.com/istoreos/quickstart/backend/service"
 )
 
 type lcdServiceBackend struct {

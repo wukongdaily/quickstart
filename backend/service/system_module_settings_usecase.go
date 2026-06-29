@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	platformuci "github.com/linkease/quick-start/istore-backend/internal/platform/uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/system/modulesettings"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	platformuci "github.com/istoreos/quickstart/backend/internal/platform/uci"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/system/modulesettings"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type systemModuleSettingsFacade interface {

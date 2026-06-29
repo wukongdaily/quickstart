@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	dockertransfer "github.com/linkease/quick-start/istore-backend/modules/guidestorage/dockertransfer"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	dockertransfer "github.com/istoreos/quickstart/backend/modules/guidestorage/dockertransfer"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type GuideDockerTransferWriter interface {

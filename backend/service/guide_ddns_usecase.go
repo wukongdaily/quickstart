@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/guideddns"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/guideddns"
 )
 
 type GuideDdnstoEnableService struct {

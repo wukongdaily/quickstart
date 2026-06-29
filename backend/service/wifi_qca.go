@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	wirelessguestiface "github.com/linkease/quick-start/istore-backend/modules/wireless/guestiface"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	wirelessguestiface "github.com/istoreos/quickstart/backend/modules/wireless/guestiface"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type QCAWifiDevice struct {

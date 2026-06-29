@@ -4,9 +4,9 @@ import (
 	"context"
 	"os/exec"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/system/updatecheck"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/system/updatecheck"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type systemUpdateFacade interface {

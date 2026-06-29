@@ -11,11 +11,11 @@ import (
 
 	"github.com/bitly/go-simplejson"
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	networkbasics "github.com/linkease/quick-start/istore-backend/modules/guidecore/networkbasics"
-	guidesetup "github.com/linkease/quick-start/istore-backend/modules/guidecore/setup"
-	dockertransfer "github.com/linkease/quick-start/istore-backend/modules/guidestorage/dockertransfer"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	networkbasics "github.com/istoreos/quickstart/backend/modules/guidecore/networkbasics"
+	guidesetup "github.com/istoreos/quickstart/backend/modules/guidecore/setup"
+	dockertransfer "github.com/istoreos/quickstart/backend/modules/guidestorage/dockertransfer"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 var networkPublicAddressFacadeTestMu sync.Mutex

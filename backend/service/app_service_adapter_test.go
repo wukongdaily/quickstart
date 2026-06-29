@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 type fakeAppServiceFacade struct {

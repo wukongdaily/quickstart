@@ -8,7 +8,7 @@ import (
 
 	simplejson "github.com/bitly/go-simplejson"
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type GuideStatusReadsReader interface {

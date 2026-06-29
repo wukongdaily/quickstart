@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/network/interfaceinventory"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/network/interfaceinventory"
 )
 
 type NetworkInterfaceInventorySnapshot = interfaceinventory.Snapshot

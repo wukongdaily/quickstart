@@ -14,10 +14,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/linkease/quick-start/istore-backend/dhns"
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/server"
-	"github.com/linkease/quick-start/istore-backend/service"
+	"github.com/istoreos/quickstart/backend/dhns"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/server"
+	"github.com/istoreos/quickstart/backend/service"
 	"github.com/urfave/cli/v2"
 )
 

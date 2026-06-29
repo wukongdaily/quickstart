@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/linkease/quick-start/istore-backend/models"
-	systemruntime "github.com/linkease/quick-start/istore-backend/modules/system/runtime"
+	"github.com/istoreos/quickstart/backend/models"
+	systemruntime "github.com/istoreos/quickstart/backend/modules/system/runtime"
 	"github.com/shirou/gopsutil/v3/cpu"
 )
 

@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/message"
+	"github.com/istoreos/quickstart/backend/message"
 )
 
 type pipeAddr struct {

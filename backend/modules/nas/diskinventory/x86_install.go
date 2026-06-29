@@ -6,7 +6,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 type X86Install struct {

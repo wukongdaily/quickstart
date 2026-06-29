@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/linkease/quick-start/istore-backend/internal/httpapi"
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/network/interfacewrite"
+	"github.com/istoreos/quickstart/backend/internal/httpapi"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/network/interfacewrite"
 )
 
 type fakeNetworkBackend struct {

@@ -5,9 +5,9 @@ import (
 	"net"
 
 	"github.com/digineo/go-uci"
-	"github.com/linkease/quick-start/istore-backend/models"
-	"github.com/linkease/quick-start/istore-backend/modules/network/interfacewrite"
-	"github.com/linkease/quick-start/istore-backend/utils"
+	"github.com/istoreos/quickstart/backend/models"
+	"github.com/istoreos/quickstart/backend/modules/network/interfacewrite"
+	"github.com/istoreos/quickstart/backend/utils"
 )
 
 var networkInterfaceWriteLoadConfig = uci.LoadConfig

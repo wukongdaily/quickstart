@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/linkease/quick-start/istore-backend/models"
+	"github.com/istoreos/quickstart/backend/models"
 )
 
 func (backend *ServiceBackend) GetNetworkStatistic(ctx context.Context) (*models.NetworkStatisticsResponse, error) {
