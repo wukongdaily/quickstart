@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -22,12 +24,22 @@ jobs:
           make tidy
           make release
 
-      - name: Create GitHub Release
+      - name: Set tag name
+        id: vars
+        run: |
+          TODAY=$(date -u -d '+8 hour' +'%Y-%m-%d')
+          echo "tag_name=$TODAY" >> $GITHUB_ENV
+
+
+      - name: upload Release
         uses: softprops/action-gh-release@v3
         with:
           files: |
             bin/quickstart-binary-*.tar.gz
             bin/quickstart-binary-*.tar.gz.sha256
-          fail_on_unmatched_files: true
+          tag_name: ${{ env.tag_name }}
+          name: "Daily Build - ${{ env.tag_name }}"
+          draft: false
+          overwrite_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
